@@ -78,6 +78,24 @@ body {
   text-align: center;
 }
 
+.first-artcl {
+display: grid;
+grid-template-columns: 350px 600px;
+grid-template-areas: "photo text";
+margin:0;
+padding:0;
+}
+
+.my-photo{
+  grid-area: photo;
+}
+
+.main-txt {
+  grid-area: text;
+  margin:0;
+  padding:0;
+}
+
 .user-image {
   margin: 0 0 32px;
   text-align: center;
@@ -164,6 +182,24 @@ body {
   background-color: #712073;
   color: #ffffff;
 }
+
+.button2 {
+  margin: 1px;
+  padding: 6px 20px;
+  display: inline-block;
+  vertical-align: baseline;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-radius: 4px;
+  background-color: #712073;
+  color: #ffffff;
+}
+
+.lastbut {
+  padding: 6px 15px;
+  margin: 1px;
+}
+
 
 .page-footer {
   padding: 40px 0;
