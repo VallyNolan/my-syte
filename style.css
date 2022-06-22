@@ -196,10 +196,14 @@ padding:0;
 }
 
 .lastbut {
-  padding: 6px 15px;
+  padding: 6px 15px 6px 16px;
   margin: 1px;
 }
 
+.lastbut2 {
+  padding: 6px 16px;
+  margin-left: 1px;
+}
 
 .page-footer {
   padding: 40px 0;
